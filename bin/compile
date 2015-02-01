@@ -15,7 +15,7 @@ rm -fr $CACHE_DIR
 mkdir -p $CACHE_DIR
 
 # Versions.
-PYTHON_VERSION="python-2.7.9"
+PYTHON_VERSION="python-2.7.6"
 SETUPTOOLS_VERSION="setuptools-12.0.5"
 PIP_VERSION="pip-6.0.7"
 NGINX_VERSION="nginx-1.6.0"
