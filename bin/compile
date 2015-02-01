@@ -36,7 +36,7 @@ export PATH=$CACHE_DIR/$PYTHON_VERSION/bin:$PATH
 if [[ ! -d "$CACHE_DIR/$SETUPTOOLS_VERSION" ]]; then
   cd $CACHE_DIR
   puts-step "Installing Setuptools ($SETUPTOOLS_VERSION)"
-  curl https://pypi.python.org/packages/source/s/setuptools/$DISTRIBUTE_VERSION.tar.gz -s | tar xz &> /dev/null
+  curl https://pypi.python.org/packages/source/s/setuptools/$SETUPTOOLS_VERSION.tar.gz -s | tar xz &> /dev/null
   cd $SETUPTOOLS_VERSION
   python setup.py install &> /dev/null
 fi
